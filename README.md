@@ -10,7 +10,7 @@
 ## 课程项目：NMT with RNNs(CS 224N)(英语->法语)
 ### 1.使用带attention的Seq2Seq模型([参考pdf](https://github.com/wuzhixin1010/Practice/blob/master/%E6%9C%BA%E5%99%A8%E7%BF%BB%E8%AF%91cs224N/%E5%8F%82%E8%80%83pdf/a4.pdf))
 + [项目代码](https://github.com/wuzhixin1010/Practice/tree/master/%E6%9C%BA%E5%99%A8%E7%BF%BB%E8%AF%91cs224N/CS224N-a4/a4)
-+ 实现decoder(LSTM)对encoder(Bidirection-LSTM)的attention(weight-attention)（[参考论文](https://arxiv.org/pdf/1409.0473.pdf)）
++ 实现decoder(LSTM)对encoder(Bidirection-LSTM)的attention(general-attention)（[参考论文](https://arxiv.org/pdf/1409.0473.pdf)）
 ![attention](图片/nmt-attention.png)
 
 ### 2.Embedding—Character-based convolutional encoder([参考pdf](https://github.com/wuzhixin1010/Practice/blob/master/%E6%9C%BA%E5%99%A8%E7%BF%BB%E8%AF%91cs224N/%E5%8F%82%E8%80%83pdf/a5.pdf))

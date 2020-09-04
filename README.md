@@ -5,6 +5,7 @@
 在这个比赛中，我们得到一个包含有特定情绪的tweet的数据集，我们将挑选出tweet中反映该情绪的部分(单词或短语)。因此，我们的训练集包含三个列，包括tweet、sentiment和selected_text(word或phrase)。在测试集中，我们将预测selected_text。
 ### 2.Data
 处理数据的时候就是要把文本转化成token，然后把情感和推特文本拼接成一个句子，还要找出训练集中selected_text对应token在推特文本对应token中的开始和结束位置，然后要把每个句子padding成最大长度。
+![dataloader](https://github.com/wuzhixin1010/Practice/blob/master/%E5%9B%BE%E7%89%87/roberta-dataloader.png)
 ### 3.Model
 整个模型包含三个模型的融合，三个模型都是基于Roberta进行构建然后微调，模型以一定的权重融合。
 ## 课程项目：NMT with RNNs(CS 224N)(英语->法语)

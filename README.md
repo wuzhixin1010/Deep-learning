@@ -6,7 +6,7 @@
 ### 2.Dataloader
 处理数据的时候就是要把文本转化成token，然后把情感和推特文本拼接成一个句子，还要找出训练集中selected_text对应token在推特文本对应token中的开始和结束位置，然后要把每个句子padding成最大长度。
 ### 3.Model
-整个模型包含三个模型的融合，三个模型都是Roberta_base，Roberta模型的输入包含tokenize后的句子，判断padding部分的mask和判断两个句子分隔的token_type_ids。
+整个模型包含三个模型的融合，三个模型都是Roberta_base，模型以一定的权重融合。
 ## 项目：NMT with RNNs(CS 224N)(英语->法语)
 ### 1.使用带attention的Seq2Seq模型([参考pdf](https://github.com/wuzhixin1010/Practice/blob/master/%E6%9C%BA%E5%99%A8%E7%BF%BB%E8%AF%91cs224N/%E5%8F%82%E8%80%83pdf/a4.pdf))
 + [项目代码](https://github.com/wuzhixin1010/Practice/tree/master/%E6%9C%BA%E5%99%A8%E7%BF%BB%E8%AF%91cs224N/CS224N-a4/a4)

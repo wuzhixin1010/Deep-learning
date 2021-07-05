@@ -1,4 +1,4 @@
-# 向NLP之路奋进
+# NLP项目记录 
 ## 比赛项目：kaggle competition--Tweet sentiment extraction(Top 6%)
 + [项目代码](https://github.com/wuzhixin1010/Practice/tree/master/%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96Kaggle-Tweet%20sentiment%20extration)
 ### 1.Background
